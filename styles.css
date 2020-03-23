@@ -151,18 +151,21 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     background-attachment: fixed;
     background-image: url("images/fishBackground.jpg");
     background-position: left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     line-height: 1.75;
     text-align: center;
 }
 
 #banner h2 {
-    color: #ffffff;
-    display: inline-block;
-    font-size: 3.5em;
-    line-height: 1.35;
-    margin-bottom: 0.5em;
-}
+     color: #ffffff;
+     display: inline-block;
+     font-size: 3.5em;
+     line-height: 1.35;
+     margin-bottom: 0.5em;
+ }
 
 #banner p {
     color: #c7c7c7;
@@ -185,12 +188,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
         width: 80%;
         margin-right: auto;
         margin-left: auto;
+        min-height: 350px;
     }
 }
 
 @media only screen and (max-width: 1300px) {
     #info {
         width: 100%;
+        min-height: 350px;
     }
 }
 
@@ -226,3 +231,144 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     margin: 0;
 }
 
+#bannerGeneric {
+    padding: 13em 0 10em 0;
+    background-attachment: fixed;
+    background-image: url("images/fishBackground.jpg");
+    background-position: left center;
+    background-size: cover;
+    line-height: 1.75;
+    text-align: center;
+}
+
+#bannerGeneric h2 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3.5em;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+}
+
+#bannerGeneric p {
+    color: #c7c7c7;
+    font-size: 1.5em;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+
+#bannerGeneric img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#footer {
+    background-color: #303844;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 3em;
+}
+
+#aboutPage {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#aboutPage #aboutContent .sectionAbout {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+@media only screen and (min-width: 1490px) {
+    #aboutPage #aboutContent .sectionAbout {
+        margin-bottom: 50px;
+    }
+}
+
+#aboutPage #topText {
+    margin-right: 1em;
+    width: auto;
+}
+
+#aboutPage #bottomText {
+    margin-left: 1em;
+    width: auto;
+}
+
+#aboutPage .sectionAbout h2 {
+    color: #63c6ac;
+}
+
+#aboutPage img {
+    border-radius: 4px;
+}
+
+#aboutPage #aboutContent .tinyBar {
+    background-color: #63c6ac;
+    height: 2px;
+    width: 100px;
+    margin-top: 0.4em;
+    margin-bottom: 0.5em;
+}
+
+#seafoodPage img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#seafoodPage .foodTableTop {
+    color: #83ddf5;
+    background-color: #395b73;
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#seafoodPage .foodTable {
+    border-radius: 10px;
+    max-width: calc(100% - 2em);
+    margin: 1em auto;
+    overflow: hidden;
+    width: 1600px;
+}
+
+#seafoodPage table {
+    width: 100%;
+}
+
+#seafoodPage td, th {
+    padding: 10px;
+}
+
+#seafoodPage td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#seafoodPage td:last-child {
+    font-size: 0.95em;
+    line-height: 1.4;
+    text-align: left;
+}
+
+#seafoodPage th {
+    font-weight: 300;
+}
+
+#seafoodPage tr:nth-child(2n) {
+    background-color: white;
+}
+
+#seafoodPage tr:nth-child(2n+1) {
+    background-color: #90c5d5;
+}
