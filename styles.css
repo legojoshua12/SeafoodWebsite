@@ -372,3 +372,106 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 #seafoodPage tr:nth-child(2n+1) {
     background-color: #90c5d5;
 }
+
+#actionPage {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#actionPage #actionsHeader {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#actionPage #actionsHeader p {
+    font-size: 12pt;
+}
+
+#actionsTable table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+#actionsTable td {
+    width: 100px;
+    height: 120px;
+    position: relative;
+}
+
+#actionsTable tr:nth-child(1) td:nth-child(1) {
+    background-color: #34495e;
+}
+
+#actionsTable tr:nth-child(1) td:nth-child(2) {
+    background-color: #35a046;
+}
+
+#actionsTable tr:nth-child(1) td:nth-child(3) {
+    background-color: #c2771c;
+}
+
+#actionsTable tr:nth-child(2) td:nth-child(1) {
+    background-color: #2980b9;
+}
+
+#actionsTable tr:nth-child(2) td:nth-child(2) {
+    background-color: #e74c3c;
+}
+
+#actionsTable tr:nth-child(2) td:nth-child(3) {
+    background-color: #8e44ad;
+}
+
+#actionsTable tr:nth-child(1) td:nth-child(1) .tableIdeaBottom {
+    height: 20px;
+    background-color: #2f4254;
+}
+
+#actionsTable tr:nth-child(1) td:nth-child(2) .tableIdeaBottom {
+    height: 20px;
+    background-color: #379048;
+}
+
+#actionsTable tr:nth-child(1) td:nth-child(3) .tableIdeaBottom {
+    height: 20px;
+    background-color: #af651b;
+}
+
+#actionsTable tr:nth-child(2) td:nth-child(1) .tableIdeaBottom {
+    height: 20px;
+    background-color: #2573a6;
+}
+
+#actionsTable tr:nth-child(2) td:nth-child(2) .tableIdeaBottom {
+    height: 20px;
+    background-color: #cf4436;
+}
+
+#actionsTable tr:nth-child(2) td:nth-child(3) .tableIdeaBottom {
+    height: 20px;
+    background-color: #803d9b;
+}
+
+.tableIdea h3{
+    color: white;
+}
+
+.tableIdeaBottom {
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 1px;
+    margin: auto;
+    padding-top: 3px;
+}
+
+.tableIdeaBottom h4 {
+    color: white;
+}
