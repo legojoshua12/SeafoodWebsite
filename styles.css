@@ -362,6 +362,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-size: 0.95em;
     line-height: 1.4;
     text-align: left;
+    width: 40%;
 }
 
 #seafoodPage th {
@@ -369,11 +370,19 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 #seafoodPage tr:nth-child(2n) {
-    background-color: white;
+    background-color: #d4e1f2;
 }
 
 #seafoodPage tr:nth-child(2n+1) {
     background-color: #90c5d5;
+}
+
+#seafoodPage a {
+    text-decoration: none;
+}
+
+#seafoodPage a:hover {
+    color: #ba1930;
 }
 
 #actionPage {
@@ -533,6 +542,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .damagesColumn img {
+    border-radius: 4px;
     object-fit: cover;
     width: 100%;
 }
