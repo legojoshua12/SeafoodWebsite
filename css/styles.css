@@ -682,14 +682,31 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #63C6AC;
 }
 
+#topFishNavAndSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#topFishNavAndSection #section1{
+    width: 50%;
+    margin-right: 20%;
+    height: auto;
+}
+
+#topFishNavAndSection #section1 h3 {
+    color: #63c6ac;
+}
+
 #fishNavPanel {
-    max-width: 30rem;
+    width: 30rem;
+    height: 260px;
     padding: 1.5rem 0;
     position: relative;
     text-align: left;
     background-color: #f5f5f5;
     border: 1px solid #c8c8c8;
     border-radius: 4px;
+    margin-right: 10px;
 }
 
 #fishNavPanel h1 {
@@ -727,14 +744,56 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: -3em;
 }
 
-#fishContentSections #section1 {
-    height: 100px;
-    background-color: pink;
+#fishContentSections h3 {
+    color: #63c6ac;
 }
 
-#fishContentSections #section2 {
-    height: 100px;
-    background-color: yellow;
+#jellyfishPhotos {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.photosDiv img {
+    border-radius: 4px;
+    width: 800px;
+    height: 700px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#section3 {
+    display: flex;
+    justify-content: center;
+}
+
+#turtleSectionText {
+    width: 60%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#section5 {
+    display: flex;
+    justify-content: center;
+}
+
+#coralSectionText {
+    width: 40%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#section6 {
+    display: flex;
+    justify-content: center;
+}
+
+#birdsSectionText {
+    margin-right: 0;
 }
