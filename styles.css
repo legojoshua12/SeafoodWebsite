@@ -424,40 +424,20 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     background-color: #35a046;
 }
 
-#actionsTable tr:nth-child(1) td:nth-child(3) {
+#actionsTable tr:nth-child(1) td:nth-child(3) .coverBox {
     background-color: #c2771c;
 }
 
-#actionsTable tr:nth-child(2) td:nth-child(1) {
+#actionsTable tr:nth-child(2) td:nth-child(1) .coverBox {
     background-color: #2980b9;
 }
 
-#actionsTable tr:nth-child(2) td:nth-child(2) {
+#actionsTable tr:nth-child(2) td:nth-child(2) .coverBox {
     background-color: #e74c3c;
 }
 
-#actionsTable tr:nth-child(2) td:nth-child(3) {
+#actionsTable tr:nth-child(2) td:nth-child(3) .coverBox {
     background-color: #8e44ad;
-}
-
-#actionsTable tr:nth-child(1) td:nth-child(3) .tableIdeaBottom {
-    height: 20px;
-    background-color: #af651b;
-}
-
-#actionsTable tr:nth-child(2) td:nth-child(1) .tableIdeaBottom {
-    height: 20px;
-    background-color: #2573a6;
-}
-
-#actionsTable tr:nth-child(2) td:nth-child(2) .tableIdeaBottom {
-    height: 20px;
-    background-color: #cf4436;
-}
-
-#actionsTable tr:nth-child(2) td:nth-child(3) .tableIdeaBottom {
-    height: 20px;
-    background-color: #803d9b;
 }
 
 .coverBox {
@@ -490,8 +470,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .message {
-    background:#181818;
-    color:#FFF;
     position: absolute;
     top: 0;
     left: 0;
@@ -528,6 +506,58 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 #toggleE:checked ~ label {
+    top: 220px;
+}
+
+#powerBlock {
+    height: 140px;
+    transition: height 0.3s ease-out;
+}
+
+#toggleP:checked ~ #powerBlock {
+    height: 240px;
+}
+
+#toggleP:checked ~ label {
+    top: 220px;
+}
+
+#dietBlock {
+    height: 140px;
+    transition: height 0.3s ease-out;
+}
+
+#toggleD:checked ~ #dietBlock {
+    height: 240px;
+}
+
+#toggleD:checked ~ label {
+    top: 220px;
+}
+
+#wasteBlock {
+    height: 140px;
+    transition: height 0.3s ease-out;
+}
+
+#toggleW:checked ~ #wasteBlock {
+    height: 240px;
+}
+
+#toggleW:checked ~ label {
+    top: 220px;
+}
+
+#trustedBlock {
+    height: 140px;
+    transition: height 0.3s ease-out;
+}
+
+#toggleT:checked ~ #trustedBlock {
+    height: 240px;
+}
+
+#toggleT:checked ~ label {
     top: 220px;
 }
 
