@@ -1,6 +1,10 @@
 
 /*Generic editing*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff;
     color: #666;
@@ -149,7 +153,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 #banner {
     padding: 13em 0 10em 0;
     background-attachment: fixed;
-    background-image: url("images/fishBackground.jpg");
+    background-image: url("../images/fishBackground.jpg");
     background-position: left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -234,7 +238,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 #bannerGeneric {
     padding: 13em 0 10em 0;
     background-attachment: fixed;
-    background-image: url("images/fishBackground.jpg");
+    background-image: url("../images/fishBackground.jpg");
     background-position: left center;
     background-size: cover;
     line-height: 1.75;
@@ -676,4 +680,61 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .damagesColumn h2 {
     color: #63C6AC;
+}
+
+#fishNavPanel {
+    max-width: 30rem;
+    padding: 1.5rem 0;
+    position: relative;
+    text-align: left;
+    background-color: #f5f5f5;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+}
+
+#fishNavPanel h1 {
+    margin-left: 1em;
+}
+
+#fishNavPanel ul {
+    width: 100%;
+}
+
+#fishNavPanel ul li {
+    list-style: none;
+    width: calc(100% - 1px);
+    margin-left: -40px;
+}
+
+#fishNavPanel ul li a {
+    color: #2b2a48;
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 20pt;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+#fishNavPanel ul li:hover {
+    color: #4e5a79;
+    background-color: #ffffff;
+    border-left: 3px solid #52b5b5;
+    width: calc(100% - 3px);
+}
+
+#fishContentSections {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#fishContentSections #section1 {
+    height: 100px;
+    background-color: pink;
+}
+
+#fishContentSections #section2 {
+    height: 100px;
+    background-color: yellow;
 }
